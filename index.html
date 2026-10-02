@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="sr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Nameštaj Ivan Kruševac</title>
+<meta name="description" content="Nameštaj Ivan, Kruševac: garniture, kreveti i francuski ležajevi, kuhinje, stolovi i stolice po meri. Izrada u sopstvenoj radionici, isporuka i montaža.">
+<meta name="theme-color" content="#0d0b09">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Nameštaj Ivan Kruševac | Nameštaj po meri">
+<meta property="og:description" content="Garniture, kreveti, kuhinje i trpezarije po meri, iz naše radionice u Kruševcu.">
+<meta property="og:image" content="assets/img/ai097.webp">
+<meta property="og:locale" content="sr_RS">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%230d0b09'/%3E%3Ctext x='32' y='45' font-family='Georgia,serif' font-size='40' fill='%23c9a55c' text-anchor='middle'%3EI%3C/text%3E%3C/svg%3E">
+<link rel="preload" as="image" href="assets/img/poster.webp">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FurnitureStore","name":"Nameštaj Ivan","description":"Nameštaj po meri: garniture, kreveti, kuhinje, stolovi i stolice.","telephone":"+381613111119","email":"ivan240181@gmail.com","address":{"@type":"PostalAddress","addressLocality":"Kruševac","addressCountry":"RS"},"sameAs":["https://www.instagram.com/namestaj_po_meri_ivan_krusevac/"]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..700;1,6..96,400..600&family=Jost:wght@300;400;500&display=swap">
+<style>
+/* Layout: one cinematic scroll-scrubbed hero, then alternating full-bleed parallax panels framed by thin gold rules — a dark velvet showroom you walk through. */
+:root{
+  --ink:#0d0b09; --walnut:#17120e; --velvet:#221a14;
+  --gold:#c9a55c; --gold-hi:#e8cf94; --cream:#efe6d6; --muted:#a3947e; --line:rgba(201,165,92,.32);
+  --display:"Bodoni Moda","Didot","Bodoni 72",Georgia,serif;
+  --body:"Jost","Futura","Avenir Next","Segoe UI",sans-serif;
+  --gutter:clamp(16px,5vw,72px);
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+img{max-width:100%}
+[hidden]{display:none!important}
+html{scroll-behavior:smooth}
+body{background:var(--ink);color:var(--cream);font-family:var(--body);font-weight:300;font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+a{color:inherit}
+:focus-visible{outline:1px solid var(--gold-hi);outline-offset:4px}
+h1,h2,h3{font-family:var(--display);font-weight:400;line-height:1.05;margin:0;text-wrap:balance}
+.eyebrow{font-size:12px;letter-spacing:.32em;text-transform:uppercase;color:var(--gold);font-weight:400}
+.wrap{padding-inline:var(--gutter)}
+em.g{font-style:italic;color:var(--gold-hi)}
+
+/* nav */
+.nav{position:fixed;inset:0 0 auto 0;z-index:20;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:calc(18px + env(safe-area-inset-top,0px)) var(--gutter) 18px;background:linear-gradient(var(--ink),rgba(13,11,9,0));transition:background .4s}
+.nav.solid{background:rgba(13,11,9,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.brand{font-family:var(--display);font-size:22px;letter-spacing:.04em;text-decoration:none;white-space:nowrap}
+.brand b{font-weight:400;color:var(--gold)}
+.nav ul{display:flex;gap:clamp(14px,2.4vw,36px);list-style:none;margin:0;padding:0;font-size:13px;letter-spacing:.18em;text-transform:uppercase}
+.nav ul a{text-decoration:none;opacity:.8}.nav ul a:hover{opacity:1;color:var(--gold-hi)}
+.call{font-size:13px;letter-spacing:.12em;text-decoration:none;border:1px solid var(--gold);padding:9px 16px;color:var(--gold-hi);white-space:nowrap}
+.call:hover{background:var(--gold);color:var(--ink)}
+
+/* hero scroll sequence */
+.seq{position:relative;height:360vh}
+.stage{position:sticky;top:0;height:100vh;height:100svh;overflow:hidden;background:var(--ink)}
+.stage canvas,.stage .poster{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.stage::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(13,11,9,.35),rgba(13,11,9,0) 22%,rgba(13,11,9,0) 80%,rgba(13,11,9,.6))}
+.cap{text-shadow:0 2px 18px rgba(0,0,0,.7)}
+.caps{background:radial-gradient(ellipse 62% 48% at 50% 50%,rgba(13,11,9,.62) 0%,rgba(13,11,9,.3) 55%,rgba(13,11,9,0) 80%)}
+.panel .copy p,.panel .copy h3{text-shadow:0 2px 14px rgba(0,0,0,.6)}
+.caps{position:absolute;inset:0;z-index:2;display:grid;place-items:center;text-align:center;padding-inline:var(--gutter)}
+.cap{grid-area:1/1;max-width:880px;transition:opacity .5s,transform .5s}
+.cap h1{font-size:clamp(44px,8.4vw,124px);letter-spacing:-.01em}
+.cap h2{font-size:clamp(34px,5.6vw,80px)}
+.cap p{margin:18px auto 0;max-width:46ch;color:var(--cream);opacity:.85}
+.cap.off{opacity:0;transform:translateY(18px);pointer-events:none}
+.scrollhint{position:absolute;left:50%;bottom:calc(28px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);z-index:2;font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:var(--muted);display:flex;flex-direction:column;align-items:center;gap:10px}
+.scrollhint i{width:1px;height:42px;background:linear-gradient(var(--gold),transparent);animation:drip 2.2s infinite}
+@keyframes drip{0%{transform:scaleY(0);transform-origin:top}50%{transform:scaleY(1);transform-origin:top}51%{transform-origin:bottom}100%{transform:scaleY(0);transform-origin:bottom}}
+.bar{position:absolute;left:var(--gutter);right:var(--gutter);bottom:calc(14px + env(safe-area-inset-bottom,0px));height:1px;background:var(--line);z-index:2}
+.bar span{display:block;height:100%;background:var(--gold);transform-origin:left;transform:scaleX(0)}
+
+/* ornament */
+.orn{display:flex;align-items:center;gap:14px;color:var(--gold);justify-content:center}
+.orn::before,.orn::after{content:"";height:1px;width:min(120px,22vw);background:linear-gradient(90deg,transparent,var(--gold))}
+.orn::after{transform:scaleX(-1)}
+.orn svg{width:22px;height:22px}
+
+/* manifesto */
+.manifesto{padding-block:clamp(90px,14vw,180px);display:grid;gap:36px;justify-items:center;text-align:center}
+.manifesto h2{font-size:clamp(32px,4.6vw,64px);max-width:20ch}
+.manifesto p{max-width:58ch;color:var(--muted);margin:0}
+.facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line);width:min(980px,100%);margin-top:20px}
+.facts div{background:var(--ink);padding:28px 22px;text-align:left;display:grid;gap:6px}
+.facts b{font-family:var(--display);font-weight:400;font-size:24px;color:var(--gold-hi)}
+.facts span{font-size:15px;color:var(--muted)}
+
+/* collection panels */
+.panel{position:relative;min-height:92vh;display:grid;align-items:end;overflow:hidden;isolation:isolate}
+.panel .bg{position:absolute;inset:-12% 0;z-index:-2;will-change:transform}
+.panel .bg img{width:100%;height:100%;object-fit:cover}
+.panel::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(13,11,9,.82) 0%,rgba(13,11,9,.55) 38%,rgba(13,11,9,.1) 68%,rgba(13,11,9,0) 100%),linear-gradient(180deg,rgba(13,11,9,.45) 0%,rgba(13,11,9,0) 25%,rgba(13,11,9,0) 60%,rgba(13,11,9,.75) 100%)}
+.panel.right::before{background:linear-gradient(270deg,rgba(13,11,9,.82) 0%,rgba(13,11,9,.55) 38%,rgba(13,11,9,.1) 68%,rgba(13,11,9,0) 100%),linear-gradient(180deg,rgba(13,11,9,.45) 0%,rgba(13,11,9,0) 25%,rgba(13,11,9,0) 60%,rgba(13,11,9,.75) 100%)}
+.panel.right .copy{margin-left:auto;text-align:right}
+.panel .copy{max-width:560px;padding-block:0 clamp(56px,9vw,110px);display:grid;gap:16px}
+.panel .copy .num{font-family:var(--display);font-style:italic;color:var(--gold);font-size:20px}
+.panel h3{font-size:clamp(40px,6.4vw,92px)}
+.panel p{margin:0;color:var(--cream);opacity:.82}
+.link{justify-self:start;font-size:13px;letter-spacing:.22em;text-transform:uppercase;text-decoration:none;color:var(--gold-hi);border-bottom:1px solid var(--gold);padding-bottom:4px}
+.panel.right .link{justify-self:end}
+
+/* horizontal collections */
+.hs{position:relative;height:400vh}
+.hs-pin{position:sticky;top:0;height:100vh;height:100svh;overflow:hidden;background:var(--ink)}
+.hs-track{display:flex;height:100%;width:max-content;will-change:transform}
+.slide{position:relative;flex:0 0 100vw;width:100vw;height:100%;overflow:hidden;display:grid;align-items:end;isolation:isolate}
+.sbg{position:absolute;top:0;bottom:0;left:-10vw;right:-10vw;z-index:-2;will-change:transform}
+.sbg img{width:100%;height:100%;object-fit:cover;transform:scale(1.04);transition:transform 1.6s cubic-bezier(.2,.7,.2,1)}
+.slide.on .sbg img{transform:scale(1)}
+.slide::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(13,11,9,.82) 0%,rgba(13,11,9,.5) 36%,rgba(13,11,9,.08) 66%,rgba(13,11,9,0) 100%),linear-gradient(180deg,rgba(13,11,9,.5) 0%,rgba(13,11,9,0) 22%,rgba(13,11,9,0) 62%,rgba(13,11,9,.8) 100%)}
+.slide+.slide{box-shadow:-1px 0 0 var(--line)}
+.slide .copy{max-width:600px;padding-block:0 clamp(110px,14vh,150px);display:grid;gap:16px}
+.slide .copy>*{opacity:.0;transform:translateY(22px);transition:opacity .8s,transform .8s cubic-bezier(.2,.7,.2,1)}
+.slide.on .copy>*,.slide:first-child .copy>*{opacity:1;transform:none}
+.slide.on .copy>:nth-child(2){transition-delay:.08s}.slide.on .copy>:nth-child(3){transition-delay:.16s}.slide.on .copy>:nth-child(4){transition-delay:.24s}
+.slide .num{font-family:var(--display);font-style:italic;color:var(--gold);font-size:20px}
+.slide h3{font-size:clamp(40px,6.4vw,92px);text-shadow:0 2px 14px rgba(0,0,0,.6)}
+.slide p{margin:0;opacity:.88;text-shadow:0 2px 12px rgba(0,0,0,.6)}
+.hs-nav{position:absolute;left:0;right:0;bottom:calc(30px + env(safe-area-inset-bottom,0px));display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted)}
+.hs-nav span{transition:color .4s;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.hs-nav span.on{color:var(--gold-hi)}
+.hs-nav i{grid-column:1/-1;grid-row:1;align-self:end;height:1px;background:var(--line);margin-bottom:-12px}
+.hs-nav b{display:block;height:100%;background:var(--gold);transform-origin:left;transform:scaleX(0)}
+@media (max-width:860px){.slide::before{background:linear-gradient(180deg,rgba(13,11,9,.45) 0%,rgba(13,11,9,0) 26%,rgba(13,11,9,.55) 52%,rgba(13,11,9,.92) 100%)}.hs-nav{font-size:9px;letter-spacing:.12em}}
+@media (prefers-reduced-motion:reduce){.hs{height:auto}.hs-pin{position:static;height:auto}.hs-track{flex-direction:column;width:auto;transform:none!important}.slide{flex:none;width:auto;height:90vh}.slide .copy>*{opacity:1;transform:none}.hs-nav{display:none}}
+
+/* process */
+.process{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:clamp(32px,6vw,96px);align-items:center;padding-block:clamp(90px,12vw,160px)}
+.frame{position:relative;padding:14px;border:1px solid var(--line)}
+.frame::after{content:"";position:absolute;inset:6px;border:1px solid rgba(201,165,92,.14);pointer-events:none}
+.frame img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover}
+.process h2{font-size:clamp(34px,4.4vw,60px);margin-top:14px}
+.steps{list-style:none;margin:34px 0 0;padding:0;display:grid;gap:0;counter-reset:s}
+.steps li{counter-increment:s;display:grid;grid-template-columns:56px minmax(0,1fr);gap:8px;padding:20px 0;border-top:1px solid var(--line)}
+.steps li::before{content:counter(s,upper-roman);font-family:var(--display);font-style:italic;color:var(--gold);font-size:22px}
+.steps b{font-weight:400;color:var(--cream);display:block;letter-spacing:.04em}
+.steps span{color:var(--muted);font-size:15px}
+
+/* gallery */
+.gallery{padding-block:clamp(70px,10vw,140px)}
+.gallery header{display:flex;justify-content:space-between;align-items:end;gap:20px;flex-wrap:wrap;margin-bottom:40px}
+.gallery h2{font-size:clamp(34px,4.6vw,64px)}
+.gallery header p{color:var(--muted);max-width:40ch;margin:0}
+.grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:14px}
+.grid figure{margin:0;position:relative;overflow:hidden;background:var(--walnut)}
+.grid img{width:100%;height:100%;object-fit:cover;display:block;transition:transform 1.2s cubic-bezier(.2,.7,.2,1),filter .6s;filter:saturate(.92)}
+.grid figure:hover img{transform:scale(1.05);filter:saturate(1.05)}
+.grid figcaption{position:absolute;left:0;right:0;bottom:0;padding:40px 18px 14px;font-size:13px;letter-spacing:.16em;text-transform:uppercase;background:linear-gradient(transparent,rgba(13,11,9,.85))}
+.g1{grid-column:span 7;aspect-ratio:16/10}.g2{grid-column:span 5;aspect-ratio:auto}
+.g3,.g4,.g5{grid-column:span 4;aspect-ratio:4/5}
+.g6{grid-column:span 5;aspect-ratio:auto}.g7{grid-column:span 7;aspect-ratio:16/10}
+
+/* contact */
+.contact{border-top:1px solid var(--line);padding-block:clamp(80px,11vw,150px);display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(32px,6vw,96px);background:radial-gradient(ellipse at 15% 0%,rgba(201,165,92,.10),transparent 55%),var(--ink)}
+.contact h2{font-size:clamp(38px,5.4vw,76px);margin-top:14px}
+.contact dl{margin:36px 0 0;display:grid;gap:22px}
+.contact dt{font-size:12px;letter-spacing:.28em;text-transform:uppercase;color:var(--gold)}
+.contact dd{margin:4px 0 0;font-family:var(--display);font-size:clamp(22px,2.4vw,30px);user-select:all;overflow-wrap:anywhere}
+form{display:grid;gap:18px;align-content:start}
+label{display:grid;gap:8px;font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted)}
+input,select,textarea{font:inherit;font-size:16px;letter-spacing:0;text-transform:none;color:var(--cream);background:transparent;border:0;border-bottom:1px solid var(--line);padding:10px 0;border-radius:0}
+select option{background:var(--walnut)}
+input:focus,select:focus,textarea:focus{outline:none;border-bottom-color:var(--gold-hi)}
+textarea{resize:vertical;min-height:96px}
+.btn{justify-self:start;margin-top:10px;font:inherit;font-size:13px;letter-spacing:.24em;text-transform:uppercase;color:var(--ink);background:var(--gold);border:0;padding:16px 28px;cursor:pointer}
+.btn:hover{background:var(--gold-hi)}
+.note{font-size:14px;color:var(--gold-hi);min-height:1.4em;margin:0}
+footer{border-top:1px solid var(--line);padding-block:28px calc(28px + env(safe-area-inset-bottom,0px));display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:13px;color:var(--muted)}
+
+@media (max-width:860px){
+  .panel::before,.panel.right::before{background:linear-gradient(180deg,rgba(13,11,9,.4) 0%,rgba(13,11,9,0) 28%,rgba(13,11,9,.55) 55%,rgba(13,11,9,.9) 100%)}
+  .nav ul{display:none}
+  .facts{grid-template-columns:minmax(0,1fr)}
+  .process,.contact{grid-template-columns:minmax(0,1fr)}
+  .grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .grid figure{grid-column:span 1!important;aspect-ratio:4/5!important}
+  .grid .g1,.grid .g7{grid-column:span 2!important;aspect-ratio:16/10!important}
+  .panel{min-height:78vh}
+  .panel.right .copy{text-align:left;margin-left:0}.panel.right .link{justify-self:start}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.scrollhint i{animation:none}.panel .bg{transform:none!important}.grid img{transition:none}}
+</style>
+</head>
+<body>
+
+
+<nav class="nav" id="nav">
+  <a class="brand" href="#top">Nameštaj <b>Ivan</b></a>
+  <ul>
+    <li><a href="#kolekcije">Kolekcije</a></li>
+    <li><a href="#izrada">Izrada</a></li>
+    <li><a href="#galerija">Galerija</a></li>
+    <li><a href="#kontakt">Kontakt</a></li>
+  </ul>
+  <a class="call" href="#kontakt">061 311 11 19</a>
+</nav>
+
+<section class="seq" id="top" aria-label="Uvodni video">
+  <div class="stage">
+    <img class="poster" src="assets/img/poster.webp" alt="Tapacirani krevet u tamnoj luksuznoj spavaćoj sobi">
+    <canvas id="cv" aria-hidden="true"></canvas>
+    <div class="caps">
+      <div class="cap" data-from="0" data-to=".3">
+        <p class="eyebrow">Nameštaj po meri · Kruševac</p>
+        <h1>Nameštaj po meri<br><em class="g">za vaš dom</em></h1>
+        <p>Garniture, kreveti, kuhinje i trpezarije, izrađene u našoj radionici prema vašim merama.</p>
+      </div>
+      <div class="cap off" data-from=".38" data-to=".66">
+        <p class="eyebrow">Sopstvena radionica</p>
+        <h2>Sve radimo<br><em class="g">sami, od rama do štofa</em></h2>
+        <p>Vi birate oblik, dimenzije, materijal i boju. Mi izrađujemo, isporučujemo i montiramo.</p>
+      </div>
+      <div class="cap off" data-from=".74" data-to="1.01">
+        <p class="eyebrow">Kontakt</p>
+        <h2>Pozovite nas<br><em class="g">za ponudu</em></h2>
+        <p>+381 61 311 11 19 · Telefon i Viber</p>
+      </div>
+    </div>
+    <div class="scrollhint" id="hint">Skrolujte<i></i></div>
+    <div class="bar"><span id="bar"></span></div>
+  </div>
+</section>
+
+<section class="manifesto wrap">
+  <div class="orn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M12 2l2.4 7.6H22l-6.2 4.6 2.4 7.6L12 17.2l-6.2 4.6 2.4-7.6L2 9.6h7.6z"/></svg></div>
+  <p class="eyebrow">Radionica Nameštaj Ivan</p>
+  <h2>Nameštaj koji se ne bira iz kataloga, <em class="g">nego se pravi za vas</em></h2>
+  <p>Dolazimo na vašu adresu, uzimamo mere i zajedno biramo štof, boju i završnu obradu. Sve ostalo radimo u Kruševcu, od rama do poslednjeg kristalnog tastera.</p>
+  <div class="facts">
+    <div><b>Merenje kod vas</b><span>Dolazimo na adresu i uzimamo tačne mere prostora.</span></div>
+    <div><b>Izbor materijala</b><span>Pliš, koža, iverica, MDF, desetine boja i dekora.</span></div>
+    <div><b>Isporuka i montaža</b><span>Donosimo i sklapamo nameštaj na mestu.</span></div>
+  </div>
+</section>
+
+<section class="hs" id="kolekcije" aria-label="Kolekcije">
+  <div class="hs-pin">
+    <div class="hs-track" id="track">
+      <article class="slide">
+        <div class="sbg"><img src="assets/img/ai097.webp" alt="Crno-bela kožna fotelja sa kristalnim tasterima u tamnom salonu"></div>
+        <div class="copy wrap"><span class="num">Garniture</span><h3>Salon <em class="g">za pamćenje</em></h3><p>Ugaone garniture, trosedi i fotelje sa kapitone tapacirungom i kristalnim tasterima, u koži ili plišu, po meri vašeg zida.</p><a class="link" href="#galerija">Pogledajte garniture</a></div>
+      </article>
+      <article class="slide">
+        <div class="sbg"><img src="assets/img/bed.webp" alt="Sivi kapitone krevet u tamnoj spavaćoj sobi"></div>
+        <div class="copy wrap"><span class="num">Kreveti i francuski ležajevi</span><h3>Spavaća soba <em class="g">kao apartman</em></h3><p>Boxspring ležajevi sa visokim tapaciranim uzglavljem, prostorom za odlaganje i taburetom u istom štofu.</p><a class="link" href="#kontakt">Pošaljite upit</a></div>
+      </article>
+      <article class="slide">
+        <div class="sbg"><img src="assets/img/kitchen.webp" alt="Bela kuhinja sa grčkim meandrom i staklenom pločom sa vodopadom"></div>
+        <div class="copy wrap"><span class="num">Kuhinje</span><h3>Kuhinja <em class="g">sa potpisom</em></h3><p>Visoki sjaj, mat ili dekor drveta. Projektujemo do poslednjeg centimetra, sa radnom pločom i rasvetom po vašoj želji.</p><a class="link" href="#galerija">Pogledajte kuhinje</a></div>
+      </article>
+      <article class="slide">
+        <div class="sbg"><img src="assets/img/dining.webp" alt="Beli sto sa sivo-belim tapaciranim stolicama u tamnoj trpezariji"></div>
+        <div class="copy wrap"><span class="num">Stolovi i stolice</span><h3>Trpeza <em class="g">za celu porodicu</em></h3><p>Stolovi i stolice visokog naslona, usklađeni sa garniturom u istoj boji i štofu.</p><a class="link" href="#kontakt">Pošaljite upit</a></div>
+      </article>
+    </div>
+    <div class="hs-nav wrap" aria-hidden="true">
+      <span>Garniture</span>
+      <span>Kreveti i francuski ležajevi</span>
+      <span>Kuhinje</span>
+      <span>Stolovi i stolice</span>
+      <i><b id="hsbar"></b></i>
+    </div>
+  </div>
+</section>
+
+<section class="process wrap" id="izrada">
+  <div class="frame"><img src="assets/img/ai102.webp" alt="Sivo-bela garnitura sa lepezastim naslonom u salonu sa lusterom" loading="lazy"></div>
+  <div>
+    <p class="eyebrow">Kako nastaje vaš komad</p>
+    <h2>Od mere do <em class="g">montaže</em></h2>
+    <ol class="steps">
+      <li><div><b>Merenje</b><span>Dolazimo na vašu adresu u Kruševcu i okolini i uzimamo mere.</span></div></li>
+      <li><div><b>Dizajn i materijali</b><span>Biramo oblik, štof, kožu ili dekor i dogovaramo cenu unapred.</span></div></li>
+      <li><div><b>Izrada u radionici</b><span>Ram, sunđer, tapacirung i završna obrada rade se kod nas.</span></div></li>
+      <li><div><b>Isporuka i montaža</b><span>Donosimo, sklapamo i nameštamo komad na njegovo mesto.</span></div></li>
+    </ol>
+  </div>
+</section>
+
+<section class="gallery wrap" id="galerija">
+  <header>
+    <div><p class="eyebrow">Galerija radova</p><h2>Isporučeno <em class="g">našim kupcima</em></h2></div>
+    <p>Izbor komada koje smo napravili po meri, od salona do kuhinje.</p>
+  </header>
+  <div class="grid">
+    <figure class="g1"><img src="assets/img/r054.webp" alt="Bež garnitura sa okruglim foteljama" loading="lazy"><figcaption>Garnitura, bež pliš</figcaption></figure>
+    <figure class="g2"><img src="assets/img/r064.webp" alt="Crno-bela kružna garnitura u velikom salonu" loading="lazy"><figcaption>Salon, crno-bela koža</figcaption></figure>
+    <figure class="g3"><img src="assets/img/r152.webp" alt="Dugačak beli sto sa sivim stolicama" loading="lazy"><figcaption>Trpezarija, belo i sivo</figcaption></figure>
+    <figure class="g4"><img src="assets/img/r172.webp" alt="Bež boxspring krevet i garderober" loading="lazy"><figcaption>Boxspring i garderober</figcaption></figure>
+    <figure class="g5"><img src="assets/img/r206.webp" alt="Kuhinja u dekoru hrasta i antracitu" loading="lazy"><figcaption>Kuhinja, hrast i antracit</figcaption></figure>
+    <figure class="g6"><img src="assets/img/ai102.webp" alt="Sivo-bela garnitura sa lepezastim naslonom" loading="lazy"><figcaption>Garnitura Lepeza</figcaption></figure>
+    <figure class="g7"><img src="assets/img/ai097.webp" alt="Crno-bela kožna fotelja" loading="lazy"><figcaption>Fotelja, crna i bela koža</figcaption></figure>
+  </div>
+</section>
+
+<section class="contact wrap" id="kontakt">
+  <div>
+    <p class="eyebrow">Kontakt</p>
+    <h2>Zakažite <em class="g">merenje</em></h2>
+    <dl>
+      <div><dt>Telefon i Viber</dt><dd>+381 61 311 11 19</dd></div>
+      <div><dt>Email</dt><dd>ivan240181@gmail.com</dd></div>
+      <div><dt>Instagram</dt><dd>@namestaj_po_meri_ivan_krusevac</dd></div>
+      <div><dt>Radionica</dt><dd>Kruševac, Srbija</dd></div>
+    </dl>
+  </div>
+  <form id="f">
+    <label for="ime">Ime i prezime<input id="ime" name="ime" required autocomplete="name"></label>
+    <label for="tel">Telefon<input id="tel" name="tel" type="tel" required autocomplete="tel"></label>
+    <label for="vrsta">Šta vam treba
+      <select id="vrsta" name="vrsta"><option>Garnitura</option><option>Krevet / francuski ležaj</option><option>Kuhinja</option><option>Sto i stolice</option><option>Nešto drugo</option></select>
+    </label>
+    <label for="poruka">Poruka<textarea id="poruka" name="poruka" placeholder="Mere prostora, boja, rok…"></textarea></label>
+    <button class="btn" type="submit">Pošalji upit</button>
+    <p class="note" id="note" role="status"></p>
+  </form>
+</section>
+
+<footer class="wrap">
+  <span>© Nameštaj Ivan, Kruševac</span>
+  <span>Nameštaj po meri · Garniture · Kreveti · Kuhinje · Trpezarije</span>
+</footer>
+
+<script>
+(()=>{
+const N=141, pad=n=>String(n).padStart(3,'0');
+const cv=document.getElementById('cv'),ctx=cv.getContext('2d'),seq=document.querySelector('.seq');
+const caps=[...document.querySelectorAll('.cap')],bar=document.getElementById('bar'),hint=document.getElementById('hint'),nav=document.getElementById('nav');
+const frames=new Array(N);let cur=-1,want=0;
+const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+function load(i){if(frames[i])return frames[i];const im=new Image();im.decoding='async';im.src='assets/frames/'+pad(i+1)+'.webp';im.onload=()=>{if(i===want)draw(i,true)};frames[i]=im;return im}
+// load in a coarse-to-fine order so scrubbing works early
+const order=[];for(let s of [16,8,4,2,1])for(let i=0;i<N;i+=s)if(!order.includes(i))order.push(i);
+let oi=0;(function pump(){for(let k=0;k<6&&oi<order.length;k++)load(order[oi++]);if(oi<order.length)setTimeout(pump,60)})();
+function size(){const d=Math.min(devicePixelRatio||1,2);cv.width=innerWidth*d;cv.height=innerHeight*d;cur=-1;draw(want,true)}
+function nearest(i){for(let r=0;r<N;r++){for(const j of [i-r,i+r]){const f=frames[j];if(f&&f.complete&&f.naturalWidth)return f}}return null}
+function draw(i,force){if(i===cur&&!force)return;const f=nearest(i);if(!f)return;cur=i;
+ const cw=cv.width,ch=cv.height,s=Math.max(cw/f.naturalWidth,ch/f.naturalHeight),w=f.naturalWidth*s,h=f.naturalHeight*s;
+ ctx.drawImage(f,(cw-w)/2,(ch-h)/2,w,h)}
+const bgs=[...document.querySelectorAll('.panel .bg')];
+function tick(){
+ const r=seq.getBoundingClientRect(),total=seq.offsetHeight-innerHeight,p=Math.min(1,Math.max(0,-r.top/total));
+ want=Math.round(p*(N-1));draw(want);
+ bar.style.transform='scaleX('+p+')';hint.style.opacity=p>0.03?0:1;
+ caps.forEach(c=>c.classList.toggle('off',!(p>=+c.dataset.from&&p<+c.dataset.to)));
+ nav.classList.toggle('solid',r.bottom<innerHeight*0.6);
+ if(!reduce)for(const b of bgs){const pr=b.parentElement.getBoundingClientRect();if(pr.bottom<0||pr.top>innerHeight)continue;const c=(pr.top+pr.height/2-innerHeight/2)/innerHeight;b.style.transform='translate3d(0,'+(c*-100*+b.dataset.speed)+'%,0)'}
+}
+let q=false;addEventListener('scroll',()=>{if(!q){q=true;requestAnimationFrame(()=>{q=false;tick()})}},{passive:true});
+addEventListener('resize',()=>{size();tick()});
+load(0).onload=()=>{size();tick()};size();tick();
+
+// horizontal collections: pinned, eased translate
+const hs=document.querySelector('.hs'),track=document.getElementById('track'),slides=[...track.children],hsLabels=[...document.querySelectorAll('.hs-nav span')],hsbar=document.getElementById('hsbar');
+let hx=0,htx=0,hrun=false;
+function hsSize(){if(reduce)return;hs.style.height=(track.scrollWidth-innerWidth+innerHeight)+'px'}
+function hsTarget(){const r=hs.getBoundingClientRect(),max=track.scrollWidth-innerWidth;const p=Math.min(1,Math.max(0,-r.top/(hs.offsetHeight-innerHeight||1)));htx=p*max;if(!hrun){hrun=true;requestAnimationFrame(hsLoop)}}
+function hsLoop(){hx+=(htx-hx)*0.085;if(Math.abs(htx-hx)<0.3)hx=htx;
+ track.style.transform='translate3d('+(-hx)+'px,0,0)';
+ const w=innerWidth,max=track.scrollWidth-w||1;hsbar.style.transform='scaleX('+(hx/max)+')';
+ slides.forEach((sl,i)=>{const off=(i*w-hx)/w;sl.querySelector('.sbg').style.transform='translate3d('+(off*-10)+'vw,0,0)';const on=Math.abs(off)<0.5;sl.classList.toggle('on',on);hsLabels[i].classList.toggle('on',on)});
+ if(hx!==htx)requestAnimationFrame(hsLoop);else hrun=false}
+if(!reduce){hsSize();addEventListener('resize',()=>{hsSize();hsTarget()});addEventListener('scroll',hsTarget,{passive:true});hsTarget()}
+document.getElementById('f').addEventListener('submit',e=>{e.preventDefault();document.getElementById('note').textContent='Za najbrži odgovor pozovite nas na +381 61 311 11 19.'});
+})();
+</script>
+</body>
+</html>
